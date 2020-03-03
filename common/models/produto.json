@@ -1,0 +1,33 @@
+{
+  "name": "Produto",
+  "plural": "y",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "valorUnitario": {
+      "type": "number"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "dataAlteracao": {
+      "type": "date"
+    },
+    "dataCriacao": {
+      "type": "date"
+    },
+    "qtdEstoque": {
+      "type": "number"
+    },
+    "dataVencimento": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

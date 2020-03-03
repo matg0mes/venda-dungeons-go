@@ -1,0 +1,13 @@
+{
+  "MongoDB": {
+    "host": "cluster0-j9w88.gcp.mongodb.net",
+    "port": 0,
+    "url": "mongodb+srv://Admin:h7T1ytt7NyEnY5Kl@cluster0-j9w88.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "test",
+    "password": "h7T1ytt7NyEnY5Kl",
+    "name": "MongoDB",
+    "user": "Admin",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

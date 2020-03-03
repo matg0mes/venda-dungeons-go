@@ -1,0 +1,26 @@
+{
+  "name": "Acesso",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string"
+    },
+    "senha": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "CPF": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

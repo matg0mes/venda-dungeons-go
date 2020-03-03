@@ -1,0 +1,23 @@
+{
+  "name": "Venda",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "dataEmissao": {
+      "type": "date"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "precoTotal": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
