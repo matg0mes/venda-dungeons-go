@@ -24,13 +24,5 @@
   "Venda": {
     "dataSource": "MongoDB",
     "public": true
-  },
-  "Usuario": {
-    "dataSource": "MongoDB",
-    "public": true
-  },
-  "Acesso": {
-    "dataSource": "MongoDB",
-    "public": true
   }
 }

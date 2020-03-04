@@ -14,7 +14,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "produto": {
+      "type": "belongsTo",
+      "model": "Produto",
+      "foreignKey": "produtoId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -17,7 +17,17 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "items": {
+      "type": "hasMany",
+      "model": "Item",
+      "foreignKey": "itemId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Item"
+    }
+  },
   "acls": [],
   "methods": {}
 }

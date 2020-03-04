@@ -1,6 +1,6 @@
 {
   "name": "Produto",
-  "plural": "y",
+  "plural": "Produto",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,6 +11,9 @@
       "type": "number"
     },
     "descricao": {
+      "type": "string"
+    },
+    "nome": {
       "type": "string"
     },
     "dataAlteracao": {
