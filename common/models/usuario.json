@@ -1,19 +1,28 @@
 {
-  "name": "Venda",
+  "name": "Usuario",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "dataEmissao": {
+    "dataNascimento": {
       "type": "date"
     },
-    "numero": {
+    "dataCriacao": {
+      "type": "date"
+    },
+    "celular": {
       "type": "string"
     },
-    "precoTotal": {
-      "type": "number"
+    "email": {
+      "type": "string"
+    },
+    "nomeCompleto": {
+      "type": "string"
+    },
+    "senha": {
+      "type": "string"
     }
   },
   "validations": [],
@@ -21,7 +30,7 @@
     "items": {
       "type": "hasMany",
       "model": "Item",
-      "foreignKey": "vendaId",
+      "foreignKey": "itemId",
       "options": {
         "nestRemoting": true
       },

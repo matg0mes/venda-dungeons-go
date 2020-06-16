@@ -11,6 +11,7 @@
     "posttest": "npm run lint"
   },
   "dependencies": {
+    "@loopback/core": "^2.8.0",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "helmet": "^3.10.0",
@@ -22,7 +23,7 @@
     "strong-error-handler": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
+    "eslint": "^7.2.0",
     "eslint-config-loopback": "^8.0.0"
   },
   "repository": {
